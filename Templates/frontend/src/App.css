@@ -1,0 +1,11 @@
+.info-tab {
+  height: 30vh;
+  margin-top: 30px;
+  box-shadow: 0px 0px 6px 5px rgba(10, 10, 10, 0.3);
+  padding: 0px 15px;
+  border-radius: 10px;
+}
+
+.status-level {
+  font-weight: 700;
+}
