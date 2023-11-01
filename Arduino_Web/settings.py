@@ -58,7 +58,7 @@ ROOT_URLCONF = 'Arduino_Web.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['Templates/frontend/build/'],
+        'DIRS': [BASE_DIR/'Templates/frontend/build/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -128,4 +128,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ORIGIN_ALLOW_ALL = True
 
-STATICFILES_DIRS = ['Templates/frontend/build/static/']
+STATICFILES_DIRS = [ BASE_DIR /'Templates/frontend/build/static/']
